@@ -1,0 +1,1 @@
+$execute at @e[type=minecraft:player] run effect give @e[type=minecraft:creaking,distance=..10] minecraft:strength 10 $(value) true

@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "RBR",
+      "RHR",
+      "LLL"
+    ],
+    "key": {
+      "R": [
+        "minecraft:resin_clump"
+      ],
+      "B": [
+        "minecraft:experience_bottle"
+      ],
+      "H": [
+        "minecraft:creaking_heart"
+      ],
+      "L": [
+        "minecraft:lapis_block"
+      ]
+    },
+    "result": {
+      "id": "minecraft:creaking_spawn_egg",
+      "components": {
+        "minecraft:entity_data": {
+          "id": "minecraft:creaking",
+          "DeathLootTable": "vpg:creaking_heart"
+        }
+      },
+      "count": 1
+    }
+  }

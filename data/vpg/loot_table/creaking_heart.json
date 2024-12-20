@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:creaking_heart",
+            "weight": 1,
+            "quality": 1
+          }
+        ]
+      }
+    ]
+  }
